@@ -1,4 +1,13 @@
-# ERB CFD Toolkit
+<p align="center">
+  <img src="logo.png" alt="ERB CFD Toolkit logo" width="220">
+</p>
+
+<h1 align="center">ERB CFD Toolkit</h1>
+
+<p align="center">
+  Desktop toolkit for 2D airfoil preparation and CFD post-processing.<br>
+  Used in the aerodynamics workflow of E-Racing Bergamo, 2023-2025.
+</p>
 
 | Category | Badges |
 |----------|--------|
@@ -14,17 +23,15 @@
 | Final version | ![Version](https://img.shields.io/badge/version-v7.2.0-blue) ![Date](https://img.shields.io/badge/released-15%20March%202026-555555) |
 | Final release | ![Release](https://img.shields.io/github/v/release/N1kk3y/ERB-Orchestrator---Nicolo-Ongaro?include_prereleases) |
 
-Desktop toolkit for 2D airfoil preparation and CFD post-processing. It was used in the aerodynamics workflow of ERB (E-Racing Bergamo), the Formula Student team of the University of Bergamo, between 2023 and 2025.
-
-This is a personal project and not an official repository of the team.
+Used by ERB (E-Racing Bergamo), the Formula Student team of the University of Bergamo, between 2023 and 2025. This is a personal project and not an official repository of the team.
 
 The application groups the small utilities used in the 2D aerodynamic workflow (profile conversion, plotting, Gurney flap modelling, ANSYS report generation) behind a single launcher, so that a profile can be moved from one step to the next without leaving the program.
 
-**Developer:** Nicolò Ongaro
-**Status:** completed. The project is finished and no further updates are planned.
-**Final version:** v7.2.0 (15 March 2026)
-**Platform:** Windows (the launcher uses Windows-specific calls for opening folders)
-**License:** custom non-commercial license, see [LICENSE](LICENSE)
+- **Developer:** Nicolò Ongaro
+- **Status:** completed. The project is finished and no further updates are planned.
+- **Final version:** v7.2.0 (15 March 2026)
+- **Platform:** Windows (the launcher uses Windows-specific calls for opening folders)
+- **License:** custom non-commercial license, see [LICENSE](LICENSE)
 
 ---
 
