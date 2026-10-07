@@ -6,12 +6,13 @@
 | Stack | ![Python](https://img.shields.io/badge/python-3-3776AB?logo=python&logoColor=white) ![PyQt5](https://img.shields.io/badge/GUI-PyQt5-41CD52?logo=qt&logoColor=white) ![pyqtgraph](https://img.shields.io/badge/plots-pyqtgraph-orange) ![ReportLab](https://img.shields.io/badge/reports-ReportLab-lightgrey) |
 | Platform | ![Platform](https://img.shields.io/badge/platform-Windows-0078D6) ![Type](https://img.shields.io/badge/type-desktop%20app-555555) |
 | Language | ![Language](https://img.shields.io/badge/language-Italian-009246) |
-| Project | ![Used by](https://img.shields.io/badge/used%20by-ERB%20(E--Racing%20Bergamo)-004D40) ![Period](https://img.shields.io/badge/used-2023--2025-555555) ![Last commit](https://img.shields.io/github/last-commit/N1kk3y/ERB-Orchestrator---Nicolo-Ongaro) ![Repo size](https://img.shields.io/github/repo-size/N1kk3y/ERB-Orchestrator---Nicolo-Ongaro) |
+| Status | ![Status](https://img.shields.io/badge/status-completed-brightgreen) ![Maintenance](https://img.shields.io/badge/updates-none%20planned-lightgrey) |
+| Project | ![Used by](https://img.shields.io/badge/used%20by-ERB%20(E--Racing%20Bergamo)-004D40) ![Period](https://img.shields.io/badge/used-2023--2025-555555) ![Repo size](https://img.shields.io/github/repo-size/N1kk3y/ERB-Orchestrator---Nicolo-Ongaro) |
 
 | Version | Release |
 |---------|---------|
-| Source | ![Version](https://img.shields.io/badge/version-v7.2.0-blue) |
-| Latest | ![Release](https://img.shields.io/github/v/release/N1kk3y/ERB-Orchestrator---Nicolo-Ongaro?include_prereleases) |
+| Final version | ![Version](https://img.shields.io/badge/version-v7.2.0-blue) ![Date](https://img.shields.io/badge/released-15%20March%202026-555555) |
+| Final release | ![Release](https://img.shields.io/github/v/release/N1kk3y/ERB-Orchestrator---Nicolo-Ongaro?include_prereleases) |
 
 Desktop toolkit for 2D airfoil preparation and CFD post-processing. It was used in the aerodynamics workflow of ERB (E-Racing Bergamo), the Formula Student team of the University of Bergamo, between 2023 and 2025.
 
@@ -20,7 +21,8 @@ This is a personal project and not an official repository of the team.
 The application groups the small utilities used in the 2D aerodynamic workflow (profile conversion, plotting, Gurney flap modelling, ANSYS report generation) behind a single launcher, so that a profile can be moved from one step to the next without leaving the program.
 
 **Developer:** Nicolò Ongaro
-**Current version in source:** v7.2.0
+**Status:** completed. The project is finished and no further updates are planned.
+**Final version:** v7.2.0 (15 March 2026)
 **Platform:** Windows (the launcher uses Windows-specific calls for opening folders)
 **License:** custom non-commercial license, see [LICENSE](LICENSE)
 
@@ -30,7 +32,7 @@ The application groups the small utilities used in the 2D aerodynamic workflow (
 
 A ready-to-run Windows executable is available in the [**Releases**](https://github.com/N1kk3y/ERB-Orchestrator---Nicolo-Ongaro/releases/latest) page. No Python installation and no compilation are required: download `ERB.Toolkit.exe` and run it.
 
-- File size: about 150 MB (156.5 MB for v7.2.0). The size may change between versions.
+- Current and final version: v7.2.0, about 150 MB (156.5 MB).
 - Windows only.
 
 ## Overview
@@ -112,7 +114,7 @@ ANSYS Workbench HTML report + Fluent images ──► Ansys Report ──► PDF
 ### Launcher
 
 - Settings page with developer information, version and a button to export the technical guide (PDF) to the Desktop.
-- Update check against the latest GitHub release; when a newer non-beta release with an `.exe` asset exists, a notice is shown in the footer.
+- Update check against the latest GitHub release; when a newer non-beta release with an `.exe` asset exists, a notice is shown in the footer. Since the project is completed, no further releases are planned.
 
 ## Repository structure
 
