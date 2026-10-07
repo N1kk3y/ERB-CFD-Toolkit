@@ -5,6 +5,7 @@
 | License | ![License](https://img.shields.io/badge/license-Non--Commercial-blue) |
 | Stack | ![Python](https://img.shields.io/badge/python-3-3776AB?logo=python&logoColor=white) ![PyQt5](https://img.shields.io/badge/GUI-PyQt5-41CD52?logo=qt&logoColor=white) ![pyqtgraph](https://img.shields.io/badge/plots-pyqtgraph-orange) ![ReportLab](https://img.shields.io/badge/reports-ReportLab-lightgrey) |
 | Platform | ![Platform](https://img.shields.io/badge/platform-Windows-0078D6) ![Type](https://img.shields.io/badge/type-desktop%20app-555555) |
+| Language | ![Language](https://img.shields.io/badge/language-Italian-009246) |
 | Project | ![Used by](https://img.shields.io/badge/used%20by-ERB%20(E--Racing%20Bergamo)-004D40) ![Period](https://img.shields.io/badge/used-2023--2025-555555) ![Last commit](https://img.shields.io/github/last-commit/N1kk3y/ERB-Orchestrator---Nicolo-Ongaro) ![Repo size](https://img.shields.io/github/repo-size/N1kk3y/ERB-Orchestrator---Nicolo-Ongaro) |
 
 | Version | Release |
@@ -24,6 +25,13 @@ The application groups the small utilities used in the 2D aerodynamic workflow (
 **License:** custom non-commercial license, see [LICENSE](LICENSE)
 
 ---
+
+## Download
+
+A ready-to-run Windows executable is available in the [**Releases**](https://github.com/N1kk3y/ERB-Orchestrator---Nicolo-Ongaro/releases/latest) page. No Python installation and no compilation are required: download `ERB.Toolkit.exe` and run it.
+
+- File size: about 150 MB (156.5 MB for v7.2.0). The size may change between versions.
+- Windows only.
 
 ## Overview
 
@@ -127,9 +135,9 @@ ANSYS Workbench HTML report + Fluent images ──► Ansys Report ──► PDF
 
 ## Installation
 
-A packaged Windows executable, when available, is published under **Releases**.
+The easiest way to use the toolkit is the prebuilt executable described in [Download](#download).
 
-To run from source:
+To run from source instead:
 
 ```bash
 git clone https://github.com/N1kk3y/ERB-Orchestrator---Nicolo-Ongaro.git
